@@ -1,0 +1,25 @@
+Class Main:
+    Rename = "Main" class and package
+    function main fix
+    import p.Potager
+
+General:
+    variable in private
+    generate getter setter
+
+    pour planter, ajouter au potager un aliment grace au constructor
+
+    create save:
+        split the file in 2 parts
+        save the gardeManger
+        save the potager
+
+        chaque aliment est split par un ";" et peut donc etre recuperer plus facilement
+
+    j'ai remplacer la hash map car l'integer n'est pas un bon id pour un aliment et en plus on avait deja cette valeur dans l'aliment.getrecolte()
+
+    un update a chaque boucle principale
+
+    jai reformater les prints pour que ca soit plus lisible.
+
+    et pour l'instant la gestion de la save bug encore...
